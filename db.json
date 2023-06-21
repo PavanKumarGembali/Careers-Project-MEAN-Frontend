@@ -1,0 +1,117 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "careers": [
+    {
+      "jobPosition": "Developer",
+      "location": "Visakhaptanam",
+      "experience": 3,
+      "dateOfPost": "2023-05-06T18:30:00.000Z",
+      "qualification": "B.Tech",
+      "id": 1
+    },
+    {
+      "jobPosition": "Designer",
+      "location": "vizianagaram",
+      "experience": 1,
+      "dateOfPost": "2023-05-01T18:30:00.000Z",
+      "qualification": "BSc",
+      "id": 2
+    },
+    {
+      "jobPosition": "Front-End Developer",
+      "location": "Visakhapatnam",
+      "experience": 4,
+      "dateOfPost": "2023-04-25T18:30:00.000Z",
+      "qualification": "B.Tech",
+      "id": 3
+    },
+    {
+      "jobPosition": "Devops",
+      "location": "Hyderabad",
+      "experience": 2,
+      "dateOfPost": "2023-04-10T18:30:00.000Z",
+      "qualification": "B.Tech",
+      "id": 4
+    },
+    {
+      "jobPosition": "JavaDeveloper",
+      "location": "visakhapatnam",
+      "experience": 3,
+      "dateOfPost": "2023-04-09T18:30:00.000Z",
+      "qualification": "BSc",
+      "id": 6
+    },
+    {
+      "jobPosition": "Designer",
+      "location": "Hyderabad",
+      "experience": 3,
+      "dateOfPost": "2023-04-30T18:30:00.000Z",
+      "qualification": "B.Tech",
+      "id": 7
+    },
+    {
+      "jobPosition": "HR",
+      "location": "VISAKHAPATNAM",
+      "experience": 0,
+      "dateOfPost": "2023-04-30T18:30:00.000Z",
+      "qualification": "MBA",
+      "id": 8
+    },
+    {
+      "jobPosition": "Designer",
+      "location": "Hyderabad",
+      "experience": 0,
+      "dateOfPost": "2023-04-01T18:30:00.000Z",
+      "qualification": "BSc",
+      "id": 9
+    },
+    {
+      "jobPosition": "Dev",
+      "location": "viz",
+      "experience": 3,
+      "dateOfPost": "2023-04-30T18:30:00.000Z",
+      "qualification": "B.Tech",
+      "id": 10
+    },
+    {
+      "jobPosition": "HR",
+      "location": "Hyderabad",
+      "experience": 2,
+      "dateOfPost": "2023-04-30T18:30:00.000Z",
+      "qualification": "MBA",
+      "id": 11
+    }
+  ],
+  "applyList": [
+    {
+      "name": "pavan",
+      "email": "gem@gmail.com",
+      "mobile": 2435236,
+      "message": "bxbxzx",
+      "id": 1
+    },
+    {
+      "name": "rohit",
+      "email": "r@gmail.com",
+      "mobile": 123456789,
+      "message": "khsdkfhai",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+.example-spacer {
+    flex: 1 1 auto;
+    padding-right: 2%;
+}
+
+.main {
+    background-color: rgb(241, 240, 240);
+}
+
+.container {
+    padding: 2%;
+    mat-card {
+        display: block;
+        p {
+            color: blue;
+
+            &:hover {
+                color: red;
+            }
+        }
+
+        span {
+             //margin-left: 720px;
+            float: right;
+            color: #9e2424;
+            font-size: 12px;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        margin-bottom: 1%;
+        border: 2%;
+    }
+}
+
+.card{
+    padding:10px 20px 22px 20px;
+}
+.inline{
+    display: inline;
+}
+.applybtn{
+    float: right;
+}

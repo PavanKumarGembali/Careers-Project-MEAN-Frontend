@@ -1,0 +1,38 @@
+<div mat-dialog-title>Apply for {{jobPosition}} </div>
+<form [formGroup]="applyForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Name</mat-label>
+                <input matInput  placeholder="Enter Your Full Name" formControlName="name">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Email</mat-label>
+                <input matInput type="email"  placeholder="Enter Your email" formControlName="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+            </mat-form-field> 
+        </div>
+        <div class="alert" *ngIf="applyForm.get('email')?.errors && applyForm.get('email')?.touched" >
+            <div *ngIf="applyForm.get('email')?.errors?.['required']">Email is required</div>
+            <div *ngIf="applyForm.get('email')?.errors?.['email']">Invalid email format</div>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Mobile</mat-label>
+                <input matInput type="number" required placeholder="Enter Your Mobile Number" formControlName="mobile">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Message</mat-label>
+                <input matInput formControlName="message">
+            </mat-form-field>
+        </div>
+
+    </div>
+    <div mat-dialog-actions class="action-btn">
+        <button mat-raised-button color="warn" type="button" [mat-dialog-close]="false">Cancel</button>
+        <button mat-raised-button color="primary" type="submit">Apply</button>
+    </div>
+</form>
